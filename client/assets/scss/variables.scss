@@ -1,0 +1,72 @@
+$white: #fff;
+$gray: #999;
+$gray-2626: #262626;
+$gray-1414: #141414;
+$gray-1A1A: #1A1A1A;
+$gray-1818: #181818;
+$purple: #703BF7;
+
+@mixin font-W500-20px {
+  font-size: calc(1.4rem + 6 * (100vw / 1920));
+  font-style: normal;
+  font-weight: 500;
+  color: $white;
+  line-height: 150%;
+  @media (max-width: 480px){
+    font-size: calc(1.4rem + (6 + 6 * 0.7) * ((100vw - 320px) / 1920));
+  }
+}
+@mixin font-W500-18px {
+  font-size: calc(1.2rem + 4 * (100vw / 1920));
+  @media (max-width: 480px){
+    font-size: calc(1.2rem + (4 + 4 * 0.7) * ((100vw - 320px) / 1920));
+  }
+  font-style: normal;
+  font-weight: 500;
+  color: $white;
+  line-height: 150%;
+}
+@mixin font-W600-24px {
+  color: $white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+@mixin font-W600-26px{
+  color: $white;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+@mixin font-W600-60px{
+  color: $white;
+  font-size: clamp(3rem, 4.2vw, 6rem);;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+@mixin font-w600-15px{
+  color: $white;
+  font-size: 15.008px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+@mixin font-w600-48px{
+  color: $white;
+  font-size: calc(2.4rem + 24 * (100vw / 1200));
+  @media (max-width: 768px){
+    font-size: calc(2.4rem + (24 + 24 * 0.7) * ((100vw - 320px) / 1920));
+  }
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 72px */
+}
+@mixin font-w600-30px{
+  color: $white;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}

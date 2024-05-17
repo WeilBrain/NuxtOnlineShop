@@ -1,0 +1,21 @@
+@import './reset.css';
+@import './normalize.css';
+
+body{
+    font-family: 'Urbanist', sans-serif;
+    background-color: #141414;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
