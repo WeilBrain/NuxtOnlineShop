@@ -3,8 +3,11 @@
 
 [HeadHunter](https://krasnodar.hh.ru/resume/39a02f80ff0c9da3fd0039ed1f4175634f3477) Ссылка на мой HeadHunter.
 
-## Установка client (FrontEnd)
+## Установка
+1. Склонировать репозиторий к себе. 
+2. Обязательно переместите server и client на рабочий стол
 
+## Команды установки client(FrontEnd)
 ```bash
 npm install
 ```
